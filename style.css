@@ -13,11 +13,11 @@ table, tr, th, td{
     padding-top: 15px;
     padding-bottom:15px;
 }
-tr:nth-child(1)
+tr:first-child
 {
     background-color: brown;
 }
-td:nth-child(1)
+td:first-child
 {
     background-color: green;
 }
@@ -33,4 +33,7 @@ td:last-child
 }
 tr:last-child{
     background-color: green;
+}
+.feed{
+    font-size: 2em;
 }
