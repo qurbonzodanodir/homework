@@ -12,3 +12,22 @@ table, tr, th, td{
     padding-top: 15px;
     padding-bottom:15px;
 }
+tr:nth-child(1)
+{
+    background-color: brown;
+}
+td:nth-child(1)
+{
+    background-color: green;
+}
+td:nth-child(9)
+{
+    background-color: brown;
+}
+.xoli{
+    background-color: yellow;
+}
+.xoki
+{
+    background-color: grey;
+}
