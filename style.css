@@ -2,6 +2,7 @@ table{
     border: 1px solid black;
     margin: auto;
     text-align: center;
+    margin-top: 30px;
     
 }
 table, tr, th, td{
@@ -20,14 +21,16 @@ td:nth-child(1)
 {
     background-color: green;
 }
-td:nth-child(9)
+td:last-child
 {
     background-color: brown;
 }
 .xoli{
     background-color: yellow;
 }
-.xoki
-{
+#xoki{
     background-color: grey;
+}
+tr:last-child{
+    background-color: green;
 }
